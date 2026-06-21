@@ -9,7 +9,7 @@ application:
     vars:
       MONGO_URL: mongodb://mongo.pod:27017/rocketchat
       MONGO_OPLOG_URL: mongodb://mongo.pod:27017/local
-      ROOT_URL: "<%URL%>"
+      ROOT_URL: "https://relaxed-weasel-rocketchat.cloud.nexlayer.ai"
       PORT: "3000"
   - name: mongo
     image: mongo:6
